@@ -1,0 +1,7 @@
+{
+  "text.autoconfig.libz.title": "LibZ Refabricated",
+  "text.autoconfig.libz.option.inventoryButton": "Показывать вкладки инвентаря",
+  "text.autoconfig.libz.option.inventoryButton.tooltip": "Включает или отключает кнопки вкладок в инвентаре.",
+  "text.autoconfig.libz.option.syncConfig": "Синхронизация конфига",
+  "text.autoconfig.libz.option.syncConfig.tooltip": "Синхронизирует конфиг с сервера на клиент."
+}

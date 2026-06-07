@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "libz",
+  "version": "${version}",
+  "name": "LibZ Refabricated",
+  "description": "Library for LevelZ \u2014 ported to Minecraft 1.21.11 (Mojang Mappings).",
+  "authors": [
+    "Globox_Z",
+    "Errnick_"
+  ],
+  "contact": {
+    "sources": "https://github.com/Globox1997/LibZ"
+  },
+  "license": "MIT",
+  "icon": "assets/libz/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.libz.LibzMain"
+    ],
+    "client": [
+      "net.libz.LibzClient"
+    ],
+    "modmenu": [
+      "net.libz.config.ModMenuIntegration"
+    ],
+    "emi": [
+      "net.libz.compat.LibzEmiPlugin"
+    ],
+    "rei_client": [
+      "net.libz.compat.LibzReiPlugin"
+    ]
+  },
+  "mixins": [
+    "libz.mixins.json",
+    "libz.client.mixins.json"
+  ],
+  "depends": {
+    "java": ">=21",
+    "minecraft": ">=${minecraft_version}",
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": ">=${fabric_version}",
+    "cloth-config2": ">=${cloth_config_version}"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

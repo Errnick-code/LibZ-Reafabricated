@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.libz.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "net.libz.mixin.LibzMixinPlugin",
+  "mixins": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

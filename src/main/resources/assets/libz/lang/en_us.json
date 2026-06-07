@@ -1,0 +1,7 @@
+{
+  "text.autoconfig.libz.title": "LibZ Refabricated",
+  "text.autoconfig.libz.option.inventoryButton": "Show Inventory Tabs",
+  "text.autoconfig.libz.option.inventoryButton.tooltip": "Enables or disables the inventory tab buttons.",
+  "text.autoconfig.libz.option.syncConfig": "Sync Config",
+  "text.autoconfig.libz.option.syncConfig.tooltip": "Synchronizes the config from server to client."
+}
